@@ -14,13 +14,58 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24x-Oz-bzC">
+                                <rect key="frame" x="40" y="102" width="240" height="206"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2388 2" translatesAutoresizingMaskIntoConstraints="NO" id="H3t-Pt-4MK">
+                                        <rect key="frame" x="47" y="18" width="147" height="108"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="147" id="8NG-Lf-Bax"/>
+                                            <constraint firstAttribute="height" constant="108" id="Kfd-qf-Kvd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sdfsdfsdvsvsvsdvs" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5u9-dj-wAl">
+                                        <rect key="frame" x="47" y="150" width="147" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="147" id="KLJ-kY-RlT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5u9-dj-wAl" secondAttribute="trailing" constant="46" id="7AO-Zz-EI1"/>
+                                    <constraint firstItem="5u9-dj-wAl" firstAttribute="leading" secondItem="24x-Oz-bzC" secondAttribute="leading" constant="47" id="86Y-7m-Ybj"/>
+                                    <constraint firstAttribute="bottom" secondItem="5u9-dj-wAl" secondAttribute="bottom" constant="35" id="EXc-cU-iIv"/>
+                                    <constraint firstItem="H3t-Pt-4MK" firstAttribute="centerX" secondItem="24x-Oz-bzC" secondAttribute="centerX" id="MQD-ZA-XTI"/>
+                                    <constraint firstItem="5u9-dj-wAl" firstAttribute="top" secondItem="H3t-Pt-4MK" secondAttribute="bottom" constant="24" id="g2C-68-Lsk"/>
+                                    <constraint firstItem="H3t-Pt-4MK" firstAttribute="top" secondItem="24x-Oz-bzC" secondAttribute="top" constant="18" id="oRk-Z2-xEZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="24x-Oz-bzC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="1qJ-Jt-DlH"/>
+                            <constraint firstAttribute="trailing" secondItem="24x-Oz-bzC" secondAttribute="trailing" constant="40" id="Cop-kX-PSj"/>
+                            <constraint firstItem="24x-Oz-bzC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="z1P-EN-ebe"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="textLabel" destination="5u9-dj-wAl" id="ooC-r5-Xvb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="306"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_2388 2" width="440" height="456"/>
+    </resources>
 </document>
