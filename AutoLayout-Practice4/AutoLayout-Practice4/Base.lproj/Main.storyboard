@@ -29,9 +29,6 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sdfsdfsdvsvsvsdvs" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5u9-dj-wAl">
                                         <rect key="frame" x="47" y="150" width="147" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="147" id="KLJ-kY-RlT"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -39,12 +36,12 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="5u9-dj-wAl" secondAttribute="trailing" constant="46" id="7AO-Zz-EI1"/>
-                                    <constraint firstItem="5u9-dj-wAl" firstAttribute="leading" secondItem="24x-Oz-bzC" secondAttribute="leading" constant="47" id="86Y-7m-Ybj"/>
-                                    <constraint firstAttribute="bottom" secondItem="5u9-dj-wAl" secondAttribute="bottom" constant="35" id="EXc-cU-iIv"/>
+                                    <constraint firstItem="5u9-dj-wAl" firstAttribute="top" secondItem="H3t-Pt-4MK" secondAttribute="bottom" constant="24" id="32J-Sq-kcM"/>
+                                    <constraint firstItem="5u9-dj-wAl" firstAttribute="leading" secondItem="24x-Oz-bzC" secondAttribute="leading" constant="47" id="4lh-ue-OnU"/>
                                     <constraint firstItem="H3t-Pt-4MK" firstAttribute="centerX" secondItem="24x-Oz-bzC" secondAttribute="centerX" id="MQD-ZA-XTI"/>
-                                    <constraint firstItem="5u9-dj-wAl" firstAttribute="top" secondItem="H3t-Pt-4MK" secondAttribute="bottom" constant="24" id="g2C-68-Lsk"/>
+                                    <constraint firstAttribute="bottom" secondItem="5u9-dj-wAl" secondAttribute="bottom" constant="35" id="RSx-3r-pkb"/>
                                     <constraint firstItem="H3t-Pt-4MK" firstAttribute="top" secondItem="24x-Oz-bzC" secondAttribute="top" constant="18" id="oRk-Z2-xEZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="5u9-dj-wAl" secondAttribute="trailing" constant="46" id="uGN-fm-RiE"/>
                                 </constraints>
                             </view>
                         </subviews>
